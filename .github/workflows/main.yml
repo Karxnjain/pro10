@@ -9,7 +9,7 @@ jobs:
       - name : Checkout code
         uses : actions/checkout@v4
       - name : Setup Python
-        uses : actions/stup-python@v5
+        uses : actions/setup-python@v5
         with :
           python-version : '3.12'
       - name : run python file
